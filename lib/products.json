@@ -1,0 +1,370 @@
+[
+  {
+    "slug": "frm-ballet-basic-sansha",
+    "name": "FRM Ballet Basic",
+    "description": "Класичні балетки для щоденних тренувань. Легкі, гнучкі та майже непомітні на нозі — щоб нічого не заважало руху. М’який матеріал адаптується під форму стопи, а тонка підошва дає максимальне відчуття підлоги — те, що потрібно для балансу і контролю. Ідеальний варіант як для початківців, так і для тих, хто тренується щодня.",
+    "category": "Балетки Sansha",
+    "price": 350,
+    "currency": "UAH",
+    "images": [
+      "/images/products/sansha-beige-1.jpg"
+    ],
+    "tag": "Ballet",
+    "style": "training",
+    "group": "shoes",
+    "gender": "unisex",
+    "type": "ballet",
+    "sizes": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ]
+  },
+  {
+    "slug": "frm-kids-leotard",
+    "name": "FRM Kids Leotard",
+    "description": "Базовий купальник для маленьких танцюристів. Зручний крій, який не сковує рухи та дозволяє повністю зосередитись на занятті. М’яка тканина приємна до тіла і добре тримає форму навіть після багаторазових прань. Створений для перших кроків у танці — коли важливі комфорт і впевненість.",
+    "category": "kids",
+    "price": 320,
+    "currency": "UAH",
+    "images": [
+      "/images/products/leotards/IMG_1653.jpg",
+      "/images/products/leotards/IMG_1654.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "фіолетовий"
+    ],
+    "tag": "Ballet",
+    "style": "training",
+    "group": "kids",
+    "gender": "unisex",
+    "type": "other",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "slug": "frm-ballet-warmupshoes",
+    "name": "FRM Ballet Warm-up Shoes",
+    "description": "Теплі балетні “чуньки” для розігріву перед тренуванням. Зберігають тепло ніг, допомагають уникнути травм і швидше підготувати м’язи до роботи. Легкі, об’ємні та максимально комфортні — ідеальні для студії, закулісся або перерв між репетиціями. Турбота про тіло — частина професіоналізму.",
+    "category": "Взуття",
+    "price": 890,
+    "currency": "UAH",
+    "images": [
+      "/images/products/chuni/IMG_0701.jpg",
+      "/images/products/chuni/IMG_0702.jpg",
+      "/images/products/chuni/IMG_0703.jpg",
+      "/images/products/chuni/IMG_0704.jpg",
+      "/images/products/chuni/IMG_0705.jpg"
+    ],
+    "colors": [
+      "рожевий",
+      "блакитний",
+      "сірий",
+      "біло-синій",
+      "біло-рожевий"
+    ],
+    "tag": "Ballet",
+    "style": "training",
+    "group": "shoes",
+    "gender": "unisex",
+    "type": "other",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "slug": "frm-ballet-warmupsweatshot",
+    "name": "FRM Ballet Warm-up Sweatshot",
+    "description": "Теплий світшот для розігріву і тренувань. Вільний силует дозволяє рухатися без обмежень, а тканина зберігає тепло під час підготовки. Підходить як для студії, так і для повсякденного стилю — коли танець стає частиною життя.",
+    "category": "Тренувальна форма",
+    "price": 680,
+    "currency": "UAH",
+    "images": [
+      "/images/products/sweatshot/IMG_0706.jpg",
+      "/images/products/sweatshot/IMG_0707.jpg",
+      "/images/products/sweatshot/IMG_0708.jpg"
+    ],
+    "colors": [
+      "беж",
+      "білий",
+      "сірий"
+    ],
+    "tag": "Ballet",
+    "style": "training",
+    "group": "apparel",
+    "gender": "unisex",
+    "type": "other",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "slug": "frm-training-chiton",
+    "name": "FRM Training Chiton",
+    "description": "Легкий тренувальний хітон для танцю. Створює відчуття руху навіть у статиці — тканина плавно слідує за кожним кроком. Ідеально підходить для занять, розтяжки та роботи над пластикою. Форма, яка підкреслює лінії, а не заважає їм.",
+    "category": "Тренувальна форма",
+    "price": 250,
+    "currency": "UAH",
+    "images": [
+      "/images/products/chiton/IMG_0710.jpg",
+      "/images/products/chiton/IMG_0711.jpg",
+      "/images/products/chiton/IMG_0712.jpg",
+      "/images/products/chiton/IMG_0713.jpg",
+      "/images/products/chiton/IMG_0714.jpg",
+      "/images/products/chiton/IMG_0715.jpg",
+      "/images/products/chiton/IMG_0716.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "білий",
+      "сірий",
+      "блакитний",
+      "рожевий",
+      "фіолетовий",
+      "червоний",
+      "коричневий"
+    ],
+    "tag": "Ballet",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "other",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "slug": "frm-training-waistcoat",
+    "name": "FRM Training Warm-up Waistcoat",
+    "description": "Жилет для розігріву та тренувань. Допомагає зберігати тепло корпусу, не обмежуючи рух рук. Зручний шар для студії — легко одягнути перед тренуванням і зняти, коли тіло вже готове до роботи.",
+    "category": "Тренувальна форма",
+    "price": 420,
+    "currency": "UAH",
+    "images": [
+      "/images/products/waistcoat/IMG_0717.jpg",
+      "/images/products/waistcoat/IMG_0718.jpg",
+      "/images/products/waistcoat/IMG_0719.jpg",
+      "/images/products/waistcoat/IMG_0720.jpg"
+    ],
+    "colors": [
+      "рожевий",
+      "блакитний",
+      "синій"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "unisex",
+    "type": "other",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "slug": "frm-ballet-warmupbody",
+    "name": "FRM Ballet Warm-up body",
+    "description": "Тренувальне боді для розігріву. Щільно прилягає до тіла, зберігаючи тепло і підкреслюючи лінії. Ідеально для початку заняття, коли важливо “включити” тіло поступово. Поєднує функціональність і мінімалістичний стиль.",
+    "category": "Тренувальна форма",
+    "price": 630,
+    "currency": "UAH",
+    "images": [
+      "/images/products/warming/IMG_1650.jpg"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "other",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "slug": "frm-ballet-leotard",
+    "name": "FRM Ballet Leotard black",
+    "description": "Класичний чорний купальник — база будь-якого танцювального гардеробу. Підкреслює форму тіла, не відволікаючи від руху. Зручний крій і еластична тканина забезпечують комфорт навіть під час інтенсивних тренувань.Просто. Чисто. Професійно.",
+    "category": "Тренувальна форма",
+    "price": 420,
+    "currency": "UAH",
+    "images": [
+      "/images/products/leotards/IMG_1651.jpg"
+    ],
+    "tag": "Ballet",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "other",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "slug": "frm-kids-set",
+    "name": "FRM Kids Set",
+    "description": "Комплект для маленьких танцюристок: купальник, шорти та шкарпетки. Все, що потрібно для тренування — в одному наборі. Комфортний, практичний і готовий до руху з першого заняття. Створений для тих, хто тільки починає — але вже любить танець.",
+    "category": "kids",
+    "price": 520,
+    "currency": "UAH",
+    "images": [
+      "/images/products/set/IMG_1655.jpg",
+      "/images/products/set/IMG_1656.jpg"
+    ],
+    "colors": [
+      "зелений",
+      "синій",
+      "жовтий",
+      "фіолетовий",
+      "рожевий"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "kids",
+    "gender": "women",
+    "type": "other",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "slug": "frm-sneakers-sansha",
+    "name": "FRM Sneakers Sansha",
+    "description": "Легкі та зручні кросівки для танцю. Забезпечують відмінну підтримку та амортизацію під час руху. Ідеальні для репетицій та виступів.",
+    "category": "Взуття",
+    "price": 2500,
+    "currency": "UAH",
+    "images": [
+      "/images/products/sansha_sneakers/IMG_1658.jpg",
+      "/images/products/sansha_sneakers/IMG_1657.jpg",
+      "/images/products/sansha_sneakers/IMG_1659.jpg"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "shoes",
+    "gender": "unisex",
+    "type": "other",
+    "sizes": [
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ]
+  },
+  {
+    "slug": "frm-sneakers-cheap",
+    "name": "FRM Sneakers",
+    "description": "Доступні та зручні кросівки для танцю. Ідеальні для початківців.",
+    "category": "Взуття",
+    "price": 1600,
+    "currency": "UAH",
+    "images": [
+      "/images/products/sneakers/IMG_1660.jpg",
+      "/images/products/sneakers/IMG_1661.jpg"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "shoes",
+    "gender": "unisex",
+    "type": "other",
+    "sizes": [
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ]
+  },
+  {
+    "slug": "frm-pants",
+    "name": "FRM Pants",
+    "description": "Штани для сучасного танцю — база. Підкреслюють форму тіла, не відволікаючи від руху. Зручний крій і еластична тканина забезпечують комфорт навіть під час інтенсивних тренувань.Просто. Чисто. Професійно.",
+    "category": "Тренувальна форма",
+    "price": 700,
+    "currency": "UAH",
+    "images": [
+      "/images/products/pants/IMG_1662.jpg",
+      "/images/products/pants/IMG_1663.jpg",
+      "/images/products/pants/IMG_1664.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "фіолетовий"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "other",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  }
+]
