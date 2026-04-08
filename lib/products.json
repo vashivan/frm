@@ -412,5 +412,66 @@
       "39",
       "40"
     ]
+  },
+  {
+    "slug": "frm-ballroom-latin",
+    "name": "FRM Latin Shoes 5.5cm",
+    "description": "Елегантні туфлі для латинських танців на високому каблуці. Забезпечують комфорт і підтримку під час тренувань або виступів.",
+    "category": "Взуття",
+    "price": 1200,
+    "currency": "UAH",
+    "images": [
+      "/images/products/ballroom5.5/IMG_1680.jpg",
+      "/images/products/ballroom5.5/IMG_1678.jpg",
+      "/images/products/ballroom5.5/IMG_1679.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "бежевий"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "shoes",
+    "gender": "women",
+    "type": "other",
+    "sizes": [
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ]
+  },
+  {
+    "slug": "frm-ballet-kids-pink",
+    "name": "FRM Ballet Shoes Kids Pink",
+    "description": "Балетки для дітей. Забезпечують комфорт і підтримку під час занять.",
+    "category": "Взуття",
+    "price": 280,
+    "currency": "UAH",
+    "images": [
+      "/images/products/balletkidspink/IMG_1674.jpg",
+      "/images/products/balletkidspink/IMG_1675.jpg",
+      "/images/products/balletkidspink/IMG_1677.jpg"
+    ],
+    "colors": [
+      "рожевий",
+      "рожевий бантик",
+      "рожевий корона"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "kids",
+    "gender": "women",
+    "type": "other"
   }
 ]

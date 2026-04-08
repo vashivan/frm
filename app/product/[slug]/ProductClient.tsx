@@ -29,18 +29,32 @@ export default function ProductClient({ product }: { product: Product }) {
   );
 
   const onAddToCart = () => {
-    if (!selectedSize) return;
+    if (!product.sizes) {
+      addToCart({
+        slug: product.slug,
+        color: selectedColor,
+        name: product.name,
+        price: product.price,
+        currency: product.currency,
+        image: activeImage, // зберігаємо активне фото
+        size: selectedSize,
+        qty: 1,
+      });
 
-    addToCart({
-      slug: product.slug,
-      color: selectedColor,
-      name: product.name,
-      price: product.price,
-      currency: product.currency,
-      image: activeImage, // зберігаємо активне фото
-      size: selectedSize,
-      qty: 1,
-    });
+    } if (product.sizes && !selectedSize) {
+      setMsg('Оберіть розмір');
+    } else {
+      addToCart({
+        slug: product.slug,
+        color: selectedColor,
+        name: product.name,
+        price: product.price,
+        currency: product.currency,
+        image: activeImage, 
+        size: selectedSize,
+        qty: 1,
+      });
+    }
 
     setMsg('Товар додано до кошика');
     setSelectedSize("");
@@ -128,28 +142,29 @@ export default function ProductClient({ product }: { product: Product }) {
 
           {/* SIZES */}
           <div className="product-sizes">
-            <Link href="/fit-guide" className="product-sizes-link">
+            {/* <Link href="/fit-guide" className="product-sizes-link">
               Гайд по розміру
-            </Link>
+            </Link> */}
 
-
-            <div className="product-sizes-grid field w-53">
-              <h1>Розмір</h1>
-              <div className="product-sizes-grid">
-                {product.sizes?.map((size) => (
-                  <button
-                    key={size}
-                    type="button"
-                    className={`product-size-btn ${selectedSize === size ? "btn-active" : ""
-                      }`}
-                    onClick={() => sizeInput(size)}
-                  >
-                    {size}
-                  </button>
-                ))}
+            {product.sizes && (
+              < div className="product-sizes-grid field w-53">
+                &&<h1>Розмір</h1>
+                <div className="product-sizes-grid">
+                  {product.sizes?.map((size) => (
+                    <button
+                      key={size}
+                      type="button"
+                      className={`product-size-btn ${selectedSize === size ? "btn-active" : ""
+                        }`}
+                      onClick={() => sizeInput(size)}
+                    >
+                      {size}
+                    </button>
+                  ))}
+                </div>
               </div>
-            </div>
-            
+            )}
+
             {product.colors &&
               (<div className="product-sizes-grid field w-53">
                 <h1>Колір</h1>
@@ -175,7 +190,7 @@ export default function ProductClient({ product }: { product: Product }) {
             <button
               className="btn btn-primary product-add-to-cart"
               onClick={onAddToCart}
-              disabled={!selectedSize}
+            // disabled={!selectedSize}
             >
               {msg ? `${msg}` : "Додати в кошик"}
             </button>

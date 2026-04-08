@@ -129,6 +129,7 @@ export default function CheckoutPage() {
 
             <div className="field">
               <label>Коментар</label>
+              <p>Вкажіть ваші параметри, такі як довжина стопи, ширина, зріст та обхват грудей для більш детального та правильного підбору розміру саме для вас.</p>
               <textarea value={form.comment} onChange={(e) => onChange("comment", e.target.value)} />
             </div>
 
