@@ -39,8 +39,8 @@ export default function CheckoutPage() {
   const onChange = (k: keyof CheckoutForm, v: any) =>
     setForm((p) => ({ ...p, [k]: v }));
 
-  const onRemove = (slug: string, size: string) => {
-    setCart(removeFromCart(slug, size));
+  const onRemove = (slug: string, size: string, color: string) => {
+    setCart(removeFromCart(slug, size, color));
   };
 
   const onSubmit = async () => {
@@ -143,7 +143,7 @@ export default function CheckoutPage() {
             <h2>Твоє замовлення</h2>
 
             {cart.map((i) => (
-              <div key={`${i.slug}_${i.size}`} className="cart-item">
+              <div key={`${i.slug}_${i.size}_${i.color}`} className="cart-item">
                 <div>
                   <div className="title">{i.name}</div>
                   <div className="meta">Розмір: {i.size} • К-ть: {i.qty}</div>
@@ -152,7 +152,7 @@ export default function CheckoutPage() {
                     {(i.price * i.qty).toLocaleString("uk-UA")} {i.currency}
                   </div>
                 </div>
-                <button onClick={() => onRemove(i.slug, i.size)}>✕</button>
+                <button onClick={() => onRemove(i.slug, i.size, i.color)}>✕</button>
               </div>
             ))}
 

@@ -5,6 +5,7 @@ import { sendTelegramMessage } from "@/lib/telegram";
 type CartItem = {
   slug: string;
   name: string;
+  color: string;
   price: number;
   currency: string;
   image: string;
@@ -101,7 +102,7 @@ export async function POST(req: Request) {
     // Telegram notify (після успішного коміту)
     try {
       const itemsText = cart
-        .map((i) => `• ${esc(i.name)} — <b>${esc(i.size)}</b> ×${i.qty} = ${i.price * i.qty} ${esc(i.currency)}`)
+        .map((i) => `• ${esc(i.name)} — <b>${esc(i.size)}</b> - <b>${esc(i.color)}</b> × ${i.qty} = ${i.price * i.qty} ${esc(i.currency)}`)
         .join("\n");
 
       const msg =

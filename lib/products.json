@@ -366,5 +366,51 @@
       "L",
       "XL"
     ]
+  },
+  {
+    "slug": "frm-ballroom-shoes",
+    "name": "FRM Ballroom Shoes",
+    "description": "Елегантні туфлі для бальних танців на низькому каблуці. Забезпечують комфорт і підтримку під час тренувань або виступів.",
+    "category": "Взуття",
+    "price": 1300,
+    "currency": "UAH",
+    "images": [
+      "/images/products/ballroom_short/IMG_1671.jpg",
+      "/images/products/ballroom_short/IMG_1665.jpg",
+      "/images/products/ballroom_short/IMG_1666.jpg",
+      "/images/products/ballroom_short/IMG_1670.jpg",
+      "/images/products/ballroom_short/IMG_1667.jpg",
+      "/images/products/ballroom_short/IMG_1668.jpg",
+      "/images/products/ballroom_short/IMG_1669.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "бежевий",
+      "світлий бежевий",
+      "леопардовий",
+      "золотий",
+      "срібний"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "shoes",
+    "gender": "women",
+    "type": "other",
+    "sizes": [
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ]
   }
 ]

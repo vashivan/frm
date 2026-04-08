@@ -50,9 +50,9 @@ export function addToCart(item: CartItem) {
   return cart;
 }
 
-export function removeFromCart(slug: string, size: string) {
+export function removeFromCart(slug: string, size: string, color: string) {
   const cart = getCart().filter(
-    (x) => !(x.slug === slug && x.size === size)
+    (x) => !(x.slug === slug && x.size === size && x.color === color)
   );
   setCart(cart);
   return cart;
