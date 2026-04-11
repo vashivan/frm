@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next"
 import { Montserrat, Jura } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
@@ -62,6 +63,7 @@ export default function RootLayout({
         className={`${montserrat.variable} ${jura.variable} antialiased site-body`}
       >
         <Header />
+        <Analytics />
         <main className="site-main">{children}</main>
         <Footer />
       </body>
