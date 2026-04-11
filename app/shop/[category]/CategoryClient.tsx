@@ -3,8 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useMemo, useState } from "react";
-import type { Category, Gender, ShoeType, Product } from "@/utils/types";
-import productsData from "@/lib/products.json";
+import type { Category, Gender, ShoeType } from "@/utils/types";
+import type { Product } from "@/app/generated/prisma/client";
 
 
 const categoryMeta: Record<Category, { title: string; description: string }> = {
@@ -30,16 +30,22 @@ const categoryMeta: Record<Category, { title: string; description: string }> = {
   },
 };
 
-export default function CategoryClient({ category }: { category: Category }) {
+export default function CategoryClient({
+  category,
+  products,
+}: {
+  category: Category;
+  products: Product[];
+}) {
   const meta = categoryMeta[category];
 
   const [genderFilter, setGenderFilter] = useState<"all" | Gender>("all");
   const [typeFilter, setTypeFilter] = useState<"all" | ShoeType>("all");
 
   const baseProducts = useMemo(
-    () => (productsData as Product[]).filter((p) => p.group === category),
-    [category]
-  );
+  () => products.filter((p) => p.group === category),
+  [products, category]
+);
 
   const filteredProducts = useMemo(
     () =>
@@ -149,7 +155,7 @@ export default function CategoryClient({ category }: { category: Category }) {
                 <div className="product-card-image">
                   <Image src={product.images[0]} alt={product.name} fill className="product-card-image-img" />
                 </div>
-                {product.label && <span className="product-card-label">{product.label}</span>}
+                {/* {product.label && <span className="product-card-label">{product.label}</span>} */}
               </div>
 
               <div className="product-card-body">

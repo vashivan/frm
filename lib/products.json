@@ -292,7 +292,7 @@
     "style": "training",
     "group": "shoes",
     "gender": "unisex",
-    "type": "other",
+    "type": "sneakers",
     "sizes": [
       "33",
       "34",
@@ -323,7 +323,7 @@
     "style": "training",
     "group": "shoes",
     "gender": "unisex",
-    "type": "other",
+    "type": "skeakers",
     "sizes": [
       "33",
       "34",
@@ -395,7 +395,7 @@
     "style": "training",
     "group": "shoes",
     "gender": "women",
-    "type": "other",
+    "type": "heels",
     "sizes": [
       "27",
       "28",
@@ -433,7 +433,7 @@
     "style": "training",
     "group": "shoes",
     "gender": "women",
-    "type": "other",
+    "type": "heels",
     "sizes": [
       "27",
       "28",

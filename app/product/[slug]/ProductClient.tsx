@@ -147,8 +147,8 @@ export default function ProductClient({ product }: { product: Product }) {
             </Link> */}
 
             {product.sizes && (
-              < div className="product-sizes-grid field w-53">
-                &&<h1>Розмір</h1>
+              <div className="product-sizes-grid field w-53">
+                <h1>Розмір</h1>
                 <div className="product-sizes-grid">
                   {product.sizes?.map((size) => (
                     <button

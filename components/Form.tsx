@@ -51,7 +51,7 @@ export default function Form() {
   };
 
   return (
-    <section className="pt-25 flex flex-col text-center items-center">
+    <section className="pt-25 pr-10 pl-10 flex flex-col text-center items-center">
       <h1 className="text-3xl pb-10 md:text-4xl font-medium">
         Зворотній зв'язок
       </h1>

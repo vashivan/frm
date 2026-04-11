@@ -1,0 +1,56 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../app/generated/prisma/client"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum ProductGroup {
+  shoes
+  apparel
+  kids
+  accessories
+}
+
+enum ProductGender {
+  women
+  men
+  unisex
+}
+
+enum ProductStatus {
+  active
+  draft
+  archived
+}
+
+model Product {
+  id          String  @id @default(cuid())
+  slug        String  @unique
+  name        String
+  description String?
+  category    String
+  price       Int
+  currency    String  @default("UAH")
+
+  images String[]
+  sizes  String[]
+  colors String[]
+
+  tag    String?
+  style  String?
+  type   String?
+  group  ProductGroup
+  gender ProductGender
+  status ProductStatus @default(active)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([group])
+  @@index([gender])
+  @@index([category])
+  @@index([status])
+}
