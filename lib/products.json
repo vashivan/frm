@@ -323,7 +323,7 @@
     "style": "training",
     "group": "shoes",
     "gender": "unisex",
-    "type": "skeakers",
+    "type": "sneakers",
     "sizes": [
       "33",
       "34",
@@ -490,7 +490,7 @@
       "чорний",
       "бежевий"
     ],
-        "sizes": [
+    "sizes": [
       "21",
       "22",
       "23",
@@ -517,9 +517,7 @@
       "44",
       "45",
       "46"
-    ]
-  },
-  {
+    ],
     "tag": "Training",
     "style": "training",
     "group": "shoes",
