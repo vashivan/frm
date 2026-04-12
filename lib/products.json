@@ -7,7 +7,7 @@
     "price": 350,
     "currency": "UAH",
     "images": [
-      "/images/products/sansha-beige-1.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974371/ikt6wuln4byfns33uuff.jpg"
     ],
     "tag": "Ballet",
     "style": "training",
@@ -51,8 +51,8 @@
     "price": 320,
     "currency": "UAH",
     "images": [
-      "/images/products/leotards/IMG_1653.jpg",
-      "/images/products/leotards/IMG_1654.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974464/x3ac8offupwjo2mm5a7z.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974464/ijkvadvofmbpp4trhswn.jpg"
     ],
     "colors": [
       "чорний",
@@ -79,11 +79,11 @@
     "price": 890,
     "currency": "UAH",
     "images": [
-      "/images/products/chuni/IMG_0701.jpg",
-      "/images/products/chuni/IMG_0702.jpg",
-      "/images/products/chuni/IMG_0703.jpg",
-      "/images/products/chuni/IMG_0704.jpg",
-      "/images/products/chuni/IMG_0705.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974456/tticxofcro1gtjijgqms.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974456/buidqqnllaz1tq4q3p1j.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974455/le5bfx4kkhgakyi9clux.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974454/ldzw7734tro5bswc0l6w.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974454/klu4j2bc5nrveshusilo.jpg"
     ],
     "colors": [
       "рожевий",
@@ -112,9 +112,9 @@
     "price": 680,
     "currency": "UAH",
     "images": [
-      "/images/products/sweatshot/IMG_0706.jpg",
-      "/images/products/sweatshot/IMG_0707.jpg",
-      "/images/products/sweatshot/IMG_0708.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974516/mscs718apcjpypihptf7.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974517/jqj4eisl13twsgfpbhwp.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974517/d9pjxjq44reutmemmgqz.jpg"
     ],
     "colors": [
       "беж",
@@ -141,13 +141,13 @@
     "price": 250,
     "currency": "UAH",
     "images": [
-      "/images/products/chiton/IMG_0710.jpg",
-      "/images/products/chiton/IMG_0711.jpg",
-      "/images/products/chiton/IMG_0712.jpg",
-      "/images/products/chiton/IMG_0713.jpg",
-      "/images/products/chiton/IMG_0714.jpg",
-      "/images/products/chiton/IMG_0715.jpg",
-      "/images/products/chiton/IMG_0716.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974446/x099xgs0zbh830e0pfpn.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974445/xcjdpzbib0ewgbvbuhao.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974445/w8oczcnmxxcph7axn5m4.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974444/ktfedjpeezop6i1zrpfh.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974444/nm7om7ldod7ftasqv0l1.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974443/xsfgklwux5sgmpjfwvbi.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974443/ej1bpotrahfbpx5rfkfz.jpg"
     ],
     "colors": [
       "чорний",
@@ -179,10 +179,10 @@
     "price": 420,
     "currency": "UAH",
     "images": [
-      "/images/products/waistcoat/IMG_0717.jpg",
-      "/images/products/waistcoat/IMG_0718.jpg",
-      "/images/products/waistcoat/IMG_0719.jpg",
-      "/images/products/waistcoat/IMG_0720.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974525/fsuajwk5lkhqalokheag.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974526/id0ia9jrlehbikhjbqed.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974527/qa1wueh00hvvjodqulbd.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974528/ltup6ooegtnkizq4tux9.jpg"
     ],
     "colors": [
       "рожевий",
@@ -209,7 +209,7 @@
     "price": 630,
     "currency": "UAH",
     "images": [
-      "/images/products/warming/IMG_1650.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974535/wjybepwftu3yf3kwv73y.jpg"
     ],
     "tag": "Training",
     "style": "training",
@@ -231,7 +231,7 @@
     "price": 420,
     "currency": "UAH",
     "images": [
-      "/images/products/leotards/IMG_1651.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974463/tb5pi9wu41vuflgipf4m.jpg"
     ],
     "tag": "Ballet",
     "style": "training",
@@ -253,8 +253,8 @@
     "price": 520,
     "currency": "UAH",
     "images": [
-      "/images/products/set/IMG_1655.jpg",
-      "/images/products/set/IMG_1656.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974497/rphwpsfnz3p30e80ih8h.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974498/zi4rqcl49mvrg2kfuq6b.jpg"
     ],
     "colors": [
       "зелений",
@@ -284,9 +284,9 @@
     "price": 2500,
     "currency": "UAH",
     "images": [
-      "/images/products/sansha_sneakers/IMG_1658.jpg",
-      "/images/products/sansha_sneakers/IMG_1657.jpg",
-      "/images/products/sansha_sneakers/IMG_1659.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974489/itn0ttxmwbcvyzxiqqhb.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974488/xgbqvovujncjd7n0eqdc.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974490/w0e3npsw5hamkkpmqml3.jpg"
     ],
     "tag": "Training",
     "style": "training",
@@ -316,8 +316,8 @@
     "price": 1600,
     "currency": "UAH",
     "images": [
-      "/images/products/sneakers/IMG_1660.jpg",
-      "/images/products/sneakers/IMG_1661.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974506/euggnz0ypjtxu2jebiic.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974507/x8l4nzyg3fmi0bvde7km.jpg"
     ],
     "tag": "Training",
     "style": "training",
@@ -347,9 +347,9 @@
     "price": 700,
     "currency": "UAH",
     "images": [
-      "/images/products/pants/IMG_1662.jpg",
-      "/images/products/pants/IMG_1663.jpg",
-      "/images/products/pants/IMG_1664.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974474/i3vjbyoyx29e3tmozsej.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974475/dtmqaipipmylwxx7ocaf.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974476/pgpwzx1eobhyok4ksjtt.jpg"
     ],
     "colors": [
       "чорний",
@@ -375,13 +375,12 @@
     "price": 1300,
     "currency": "UAH",
     "images": [
-      "/images/products/ballroom_short/IMG_1671.jpg",
-      "/images/products/ballroom_short/IMG_1665.jpg",
-      "/images/products/ballroom_short/IMG_1666.jpg",
-      "/images/products/ballroom_short/IMG_1670.jpg",
-      "/images/products/ballroom_short/IMG_1667.jpg",
-      "/images/products/ballroom_short/IMG_1668.jpg",
-      "/images/products/ballroom_short/IMG_1669.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974421/phej9rvrd8i6kk1qvowb.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974421/x9cdglauzxmlc4yunwui.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974421/ms70lvseo5m8kpsv66s2.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974422/wfuwwiadvyvddrdprid3.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974422/bt6ti9tpkiaheuyljszg.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974423/rnwfz2uboi3ztbkncohk.jpg"
     ],
     "colors": [
       "чорний",
@@ -421,9 +420,9 @@
     "price": 1200,
     "currency": "UAH",
     "images": [
-      "/images/products/ballroom5.5/IMG_1680.jpg",
-      "/images/products/ballroom5.5/IMG_1678.jpg",
-      "/images/products/ballroom5.5/IMG_1679.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974433/si1jyyi0u8kpeypu0qog.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974433/fwiqtnilcdscrxfpm9ai.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974432/ylaugq7piy9ffmmu4onw.jpg"
     ],
     "colors": [
       "чорний",
@@ -459,9 +458,9 @@
     "price": 280,
     "currency": "UAH",
     "images": [
-      "/images/products/balletkidspink/IMG_1674.jpg",
-      "/images/products/balletkidspink/IMG_1675.jpg",
-      "/images/products/balletkidspink/IMG_1677.jpg"
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974407/fpurfnj3yxogn5aujtiw.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974407/yzvidctufeggebzmcw9r.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775974407/msrh7nmff0bqk59zv2dm.jpg"
     ],
     "colors": [
       "рожевий",
@@ -472,6 +471,93 @@
     "style": "training",
     "group": "kids",
     "gender": "women",
+    "type": "other"
+  },
+  {
+    "slug": "frm-jazz-shoes",
+    "name": "FRM Jazz Shoes",
+    "description": "Зручні джазовки Sansha. Підходить як для танцівників, так і для викладачів танцювальних мистецтв.",
+    "category": "Взуття",
+    "price": 1200,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975435/czyq2wmvsma3ba2puqba.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975434/e0bogwgchj8nkf0yngvr.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975433/infq2boerrwuajtpyinu.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975434/p6a4qkdu2asmale9ygcw.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "бежевий"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "shoes",
+    "gender": "unisex",
+    "type": "other"
+  },
+  {
+    "slug": "frm-modern-dance-pants",
+    "name": "FRM Contemporary Dance Pants",
+    "description": "Брюки для сучасного танцю. Забезпечують комфорт і свободу рухів.",
+    "category": "Тренувальна форма",
+    "price": 950,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975437/m8hylqkhmpopmf43mqit.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975436/dsdjpaislbanfyaqbrzg.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975439/p8myyaxalgtyuxctvbuh.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975437/hqillx4akvg3vcescu7p.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "червоний",
+      "зелений (хакі)",
+      "сірий"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "unisex",
+    "type": "other"
+  },
+  {
+    "slug": "frm-contemporary-socks",
+    "name": "FRM Contemporary Dance Socks",
+    "description": "Шкарпетки для сучасного танцю. Забезпечують комфорт і підтримку під час занять. В подарунок до замовлення від 1600UAH",
+    "category": "Тренувальна форма",
+    "price": 120,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975441/vqeifjnnxeoz453xiczd.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975442/ixlwcevenafeyrqbmmvf.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975443/ippmjbpfsphfcesrp3wy.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975443/vry6ze3bnvaobrfkgkzt.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975444/ew0celhpalfgardrf7j2.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975445/c4kth4yw3tceg11ksf06.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975446/wnmmui96mknkxzd8jj3g.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975447/mxhhkwuizbmycryszomm.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975448/f0fel4hgoielhwn32vqd.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975449/lblszmmamrvxbbf7f6xy.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975450/cksqxieymrzdvste3p5j.jpg"
+    ],
+    "colors": [
+      "оранжевий",
+      "чорний",
+      "синій",
+      "жовтий",
+      "фіолетовий",
+      "бірюзовий",
+      "рожевий",
+      "коричневий",
+      "бежевий",
+      "зелений",
+      "голубий"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "unisex",
     "type": "other"
   }
 ]
