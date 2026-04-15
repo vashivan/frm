@@ -108,12 +108,12 @@ export default function AboutPage() {
           </div>
 
           <div className="about-panel">
-            <p className="about-panel-title">Підбір розміру</p>
+            <p className="about-panel-title">Підбір розміру, замовлення.</p>
             <p className="about-panel-text">
-              Якщо сумніваєшся — відкрий гайд або напиши нам.
+              Якщо є питання — напиши нам.
             </p>
-            <Link href="/fit-guide" className="btn btn-outline">
-              Fit guide →
+            <Link href="/contact" className="btn btn-outline">
+              Написати нам →
             </Link>
           </div>
         </div>

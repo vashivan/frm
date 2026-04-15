@@ -587,5 +587,148 @@
     "group": "apparel",
     "gender": "unisex",
     "type": "other"
+  },
+    {
+    "slug": "frm-modern-dance-pants",
+    "name": "FRM Contemporary Dance Pants",
+    "description": "Брюки для сучасного танцю. Забезпечують комфорт і свободу рухів.",
+    "category": "Тренувальна форма",
+    "price": 950,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975437/m8hylqkhmpopmf43mqit.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975436/dsdjpaislbanfyaqbrzg.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975439/p8myyaxalgtyuxctvbuh.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1775975437/hqillx4akvg3vcescu7p.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "червоний",
+      "зелений (хакі)",
+      "сірий"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "unisex",
+    "type": "other"
+  },
+  {
+    "slug": "frm-body-combo",
+    "name": "FRM Body Combo",
+    "description": "Комбінезон для танцю. Забезпечує комфорт, підтримку та зберігає тепло під час занять.",
+    "category": "Тренувальна форма",
+    "price": 1300,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233462/w9dciduyy3vceasll6xu.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233462/tszzpodcsbcmsuinqzrv.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233458/lk6hh5z61ifbyfolf19t.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233457/tap9k1xorzztsfocf5ey.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233458/m4xxuk4e3qzusr8kaejh.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233458/itsxgtz7pdyo2jpxcw5c.jpg"
+    ],
+    "colors": [
+      "сірий",
+      "зелений"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "unisex",
+    "type": "other"
+  },
+  {
+    "slug": "frm-latin-skirt",
+    "name": "FRM Latin Skirt",
+    "description": "Спідниця для латини. Підкреслює рухи та додає елегантності.",
+    "category": "Тренувальна форма",
+    "price": 720,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233458/rtay3xemhbhc3m4lolel.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233458/jbuadi1jkwlzenws2axj.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "леопард"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "other"
+  },
+  {
+    "slug": "frm-leotard-easy",
+    "name": "FRM Leotard Easy",
+    "description": "Легкий леотард для танцю. Забезпечує комфорт і свободу рухів.",
+    "category": "Тренувальна форма",
+    "price": 350,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776239318/copy_of_losbrbtipbjwg8gsxyo8_20d37d.png",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776239380/copy_of_n3wenxtv6voevgavub0y_1f539d.png"
+    ],
+    "colors": [
+      "фіолетовий",
+      "синій",
+      "зелений",
+      "чорний"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "other"
+  },
+  {
+    "slug": "frm-leotard-baroque",
+    "name": "FRM Leotard Baroque",
+    "description": "Сет для танцю. Забезпечує комфорт і свободу рухів. Леотард та спідниця для занять класичним танцем.",
+    "category": "Тренувальна форма",
+    "price": 1360,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233461/hdqcqpoptl1kflmnjxw3.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233462/wk8sbeflje664feme8ow.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233462/f4fkfmh3jy8xsiadsuig.jpg"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "other"
+  },
+  {
+    "slug": "frm-latin-dress",
+    "name": "FRM Latin Dress",
+    "description": "Комфортна латинська сукня для танців. Підкреслює рухи та додає елегантності.",
+    "category": "Тренувальна форма",
+    "price": 2700,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233461/ukopydjkilhbqoq0qqp9.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233460/eahz8xgkurqvmzlvxaeb.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233460/opnvbgxfho5rygvhqilv.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776233461/ay7mekpfae2xks08b8wu.jpg"
+
+    ],
+    "colors": [
+      "леопард",
+      "чорний",
+      "бежевий"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "other"
   }
 ]
