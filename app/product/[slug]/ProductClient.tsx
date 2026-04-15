@@ -5,7 +5,7 @@ import Link from "next/link";
 // import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { addToCart } from "@/lib/cart";
-import type { Product } from "@/utils/types";
+import type { Product } from "@/app/generated/prisma/client";
 
 
 export default function ProductClient({ product }: { product: Product }) {
