@@ -15,7 +15,9 @@ export default function ProductClient({ product }: { product: Product }) {
   function updatesParams(key: string, value: string) {
     const params = new URLSearchParams(searchParams.toString());
     params.set(key, value);
-    router.push(`/product/${product.slug}?${params.toString()}`);
+    router.push(`/product/${product.slug}?${params.toString()}`, {
+      scroll: false,
+    });
   }
 
   const selectedSize = searchParams.get('size') || '';
