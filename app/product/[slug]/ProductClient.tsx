@@ -2,28 +2,27 @@
 
 import Image from "next/image";
 import Link from "next/link";
-// import { useRouter } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import { useState } from "react";
 import { addToCart } from "@/lib/cart";
 import type { Product } from "@/app/generated/prisma/client";
 
 
 export default function ProductClient({ product }: { product: Product }) {
-  // const router = useRouter();
+  const router = useRouter();
+  const searchParams = useSearchParams();
 
-  const [selectedSize, setSelectedSize] = useState<string>('');
-  const [selectedColor, setSelectedColor] = useState<string>('');
+  function updatesParams(key: string, value: string) {
+    const params = new URLSearchParams(searchParams.toString());
+    params.set(key, value);
+    router.push(`/product/${product.slug}?${params.toString()}`);
+  }
+
+  const selectedSize = searchParams.get('size') || '';
+  const selectedColor = searchParams.get('color') || '';
   const [msg, setMsg] = useState<string>('');
 
-  const sizeInput = (size: string) => {
-    setSelectedSize(size);
-  }
 
-  const colorInput = (color: string) => {
-    setSelectedColor(color);
-  }
-
-  // 👉 активне фото
   const [activeImage, setActiveImage] = useState<string>(
     product.images[0]
   );
@@ -57,7 +56,6 @@ export default function ProductClient({ product }: { product: Product }) {
     }
 
     setMsg('Товар додано до кошика');
-    setSelectedSize("");
 
     setTimeout(() => (
       setMsg('')
@@ -154,9 +152,9 @@ export default function ProductClient({ product }: { product: Product }) {
                     <button
                       key={size}
                       type="button"
+                      onClick={() => updatesParams('size', size)}
                       className={`product-size-btn ${selectedSize === size ? "btn-active" : ""
                         }`}
-                      onClick={() => sizeInput(size)}
                     >
                       {size}
                     </button>
@@ -175,7 +173,7 @@ export default function ProductClient({ product }: { product: Product }) {
                       type="button"
                       className={`product-size-btn ${selectedColor === color ? "btn-active" : ""
                         }`}
-                      onClick={() => colorInput(color)}
+                      onClick={() => updatesParams('color', color)}
                     >
                       {color}
                     </button>

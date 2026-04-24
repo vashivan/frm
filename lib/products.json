@@ -588,7 +588,7 @@
     "gender": "unisex",
     "type": "other"
   },
-    {
+  {
     "slug": "frm-modern-dance-pants",
     "name": "FRM Contemporary Dance Pants",
     "description": "Брюки для сучасного танцю. Забезпечують комфорт і свободу рухів.",
@@ -712,7 +712,6 @@
       "https://res.cloudinary.com/dkchysebn/image/upload/v1776233460/eahz8xgkurqvmzlvxaeb.jpg",
       "https://res.cloudinary.com/dkchysebn/image/upload/v1776233460/opnvbgxfho5rygvhqilv.jpg",
       "https://res.cloudinary.com/dkchysebn/image/upload/v1776233461/ay7mekpfae2xks08b8wu.jpg"
-
     ],
     "colors": [
       "леопард",
@@ -730,5 +729,274 @@
     "group": "apparel",
     "gender": "women",
     "type": "other"
-  }
+  },
+  {
+    "slug": "frm-asymmetric-bodysuit-brown",
+    "name": "FRM Asymmetric Bodysuit",
+    "description": "Асиметричний боді для танців з ефектними вирізами. Підкреслює силует, відкриває лінії тіла та додає характеру кожному руху. Ідеально підходить як для тренувань, так і для зйомок або виступів.",
+    "category": "Тренувальна форма",
+    "price": 1820,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954687/i7vadlva8sdcoofcfkr5.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954688/yh1bjk7ehctomed0qgj2.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954688/otoh2rqizqrycnjzwlt6.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954688/awvtamfwbzvhnvwkwcba.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954689/wf7l4pp3spk3xiag884u.jpg"
+    ],
+    "colors": [
+      "коричневий"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "bodysuit"
+  },
+  {
+    "slug": "frm-mesh-long-sleeve-bodysuit-black",
+    "name": "FRM Mesh Long Sleeve Bodysuit",
+    "description": "Елегантний боді з напівпрозорими рукавами та акцентом на драпіруванні. Витягує силует, підкреслює лінії спини та додає плавності рухам. Ідеальний для тренувань, репетицій і стильних виходів на паркет.",
+    "category": "Тренувальна форма",
+    "price": 1820,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954689/rg88zkhzqje1ytamaqbz.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954689/qznv8cnqi35n3d1hzfwe.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954689/uh1wwwmxtzdvhvpjs8e3.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954690/anrxyw8xnpw6xeyycpql.jpg"
+    ],
+    "colors": [
+      "чорний"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "tag": "Training",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "bodysuit"
+  },
+  {
+    "slug": "frm-kids-dance-set-black",
+    "name": "FRM Kids Dance Set",
+    "description": "Дитячий танцювальний сет: леотард, спідниця та штани-кльош. Легкі матеріали, комфортна посадка та акцент на рух — ідеально для тренувань і виступів. Кожен елемент гармонійно поєднується між собою або може використовуватись окремо.\n\nДоступно для замовлення як комплектом, так і по окремості.",
+    "category": "Дитяча форма",
+    "price": 3500,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954690/ffqixdwhifspbzvkulnk.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954689/zqw3tjcywiuh5qeo23jg.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954691/fiqatv9yhoqu4jinhyty.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954689/ggwtyiqt3fbqchinybdv.jpg"
+    ],
+    "colors": [
+      "чорний"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "tag": "Ballroom",
+    "style": "training",
+    "group": "kids",
+    "gender": "women",
+    "type": "set"
+  },
+  {
+    "slug": "frm-jazz-shoes-canvas",
+    "name": "FRM Jazz Shoes",
+    "description": "Легкі джазові черевики для тренувань і виступів. Гнучка підошва забезпечує контроль руху та комфорт під час роботи стопи. Щільна фіксація на шнурівці та м’який матеріал дозволяють точно відчувати підлогу.",
+    "category": "Взуття",
+    "price": 720,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954691/uvg11i58xwzsxo9gi9cw.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954691/crcam02rtm4eq6nrxtcg.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954692/d1ixyf0tizkalg2vhfrj.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954692/uvtgigsh1dodke4byagu.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954692/psx1fo8miyo1vzxchhpu.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954692/r04pd0ag85lnzuf7cfam.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954693/cdgjysah3xn0hvyxuhrp.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "білий",
+      "бежевий"
+    ],
+    "sizes": [
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "tag": "Shoes",
+    "style": "training",
+    "group": "shoes",
+    "gender": "unisex",
+    "type": "jazz"
+  },
+  {
+    "slug": "frm-latin-heels-strappy",
+    "name": "FRM Latin Heels",
+    "description": "Класичні латинські туфлі з ремінцями для стабільної фіксації стопи. Гнучка підошва дозволяє точно відчувати підлогу, а каблук забезпечує баланс і контроль у русі. Ідеальні для тренувань та виступів у латині. (Варіанти: 3.5см, 5см)",
+    "category": "Взуття",
+    "price": 950,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954691/lzkypsskllo4jc12hsvy.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954691/fjvwsailqagflp5xzbnw.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954691/d2uxpmeojo0j2okkuocs.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954690/ig61ivolvamxvyqw8bky.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954688/i0ojevkcy93wwexy4khg.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954689/jv0kfsczqpulmlgkw6mi.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954689/jv0kfsczqpulmlgkw6mi.jpg"
+    ],
+    "colors": [
+      "срібний",
+      "золотий",
+      "бежевий",
+      "бронзовий"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "tag": "Shoes",
+    "style": "latin",
+    "group": "shoes",
+    "gender": "women",
+    "type": "heels"
+  },
+  {
+    "slug": "frm-dance-sneakers-air",
+    "name": "FRM Dance Sneakers Air",
+    "description": "Танцювальні кросівки з амортизацією для тренувань і активних рухів. Легка дихаюча сітка забезпечує комфорт, а підошва з повітряною вставкою зменшує навантаження на стопу та суглоби. Ідеальні для хіп-хопу, джазу та інтенсивних занять.",
+    "category": "Взуття",
+    "price": 850,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954693/fxmvbotke5f5mie4fpxw.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954692/c2btxzot2p3cam9qevhl.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954692/cjs9gcylatr23rgvcr6r.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954693/bea7tyfpwrs0kwfhozxc.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954693/xaebx73zbp8y5cteqlvs.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954693/rnesk8n6gdtmaoxpoz8n.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954693/pkck29sdjsck0ds8r3qw.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954694/dlho3jmsk7u5qmdcsnhe.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954694/glxbrnl9yftuopitdio5.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954694/fwlt9sixyc0jl0nmtqsx.jpg"
+    ],
+    "colors": [
+      "чорний",
+      "білий",
+      "червоний",
+      "бордовий",
+      "чорний (шкіряні вставки)",
+      "білий (шкіряні вставки)"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "tag": "Shoes",
+    "style": "training",
+    "group": "shoes",
+    "gender": "unisex",
+    "type": "sneakers"
+  },
+  {
+    "slug": "frm-latin-heels-t-strap",
+    "name": "FRM Latin Heels T-Strap",
+    "description": "Елегантні латинські туфлі з T-ремінцем для максимальної фіксації та стабільності. М’яка підошва дозволяє відчувати підлогу, а витончений каблук додає балансу та контролю в кожному русі. Ідеальні для тренувань і виступів у латині.",
+    "category": "Взуття",
+    "price": 1600,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954694/veull8kqp7xig1lvc6gr.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954694/zswkzszheqnydv8fqu01.jpg"
+    ],
+    "colors": [
+      "золотистий"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "tag": "Shoes",
+    "style": "latin",
+    "group": "shoes",
+    "gender": "women",
+    "type": "heels"
+  },
+  {
+  "slug": "frm-dance-set-core",
+  "name": "FRM Dance Set Core",
+  "description": "Базовий танцювальний сет для тренувань і щоденного руху. У комплект входять шорти, укорочена футболка та гетри. М’яка тканина, свобода рухів і чиста форма без зайвого. Ідеальний баланс комфорту та стилю в залі.",
+  "category": "Одяг",
+  "price": 820,
+  "currency": "UAH",
+  "images": [
+    "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/ya2gxow38jhdcsnxmjis.jpg",
+    "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/ar3arlu8nogi6m5pgcim.jpg",
+    "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/xknedrfwoujq8xivdcaj.jpg",
+    "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/ybwnbh9gczm6vd74nyym.jpg"
+  ],
+  "colors": [
+    "червоний",
+    "жовтий",
+    "фіолетовий",
+    "чорний",
+    "сірий"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "tag": "Clothing",
+  "style": "training",
+  "group": "apparel",
+  "gender": "women",
+  "type": "set"
+}
 ]
