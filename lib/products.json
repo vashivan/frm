@@ -968,35 +968,122 @@
     "type": "heels"
   },
   {
-  "slug": "frm-dance-set-core",
-  "name": "FRM Dance Set Core",
-  "description": "Базовий танцювальний сет для тренувань і щоденного руху. У комплект входять шорти, укорочена футболка та гетри. М’яка тканина, свобода рухів і чиста форма без зайвого. Ідеальний баланс комфорту та стилю в залі.",
-  "category": "Одяг",
-  "price": 820,
-  "currency": "UAH",
-  "images": [
-    "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/ya2gxow38jhdcsnxmjis.jpg",
-    "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/ar3arlu8nogi6m5pgcim.jpg",
-    "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/xknedrfwoujq8xivdcaj.jpg",
-    "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/ybwnbh9gczm6vd74nyym.jpg"
-  ],
-  "colors": [
-    "червоний",
-    "жовтий",
-    "фіолетовий",
-    "чорний",
-    "сірий"
-  ],
-  "sizes": [
-    "XS",
-    "S",
-    "M",
-    "L"
-  ],
-  "tag": "Clothing",
-  "style": "training",
-  "group": "apparel",
-  "gender": "women",
-  "type": "set"
-}
+    "slug": "frm-dance-set-core",
+    "name": "FRM Dance Set Core",
+    "description": "Базовий танцювальний сет для тренувань і щоденного руху. У комплект входять шорти, укорочена футболка та гетри. М’яка тканина, свобода рухів і чиста форма без зайвого. Ідеальний баланс комфорту та стилю в залі.",
+    "category": "Одяг",
+    "price": 820,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/ya2gxow38jhdcsnxmjis.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/ar3arlu8nogi6m5pgcim.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/xknedrfwoujq8xivdcaj.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1776954695/ybwnbh9gczm6vd74nyym.jpg"
+    ],
+    "colors": [
+      "червоний",
+      "жовтий",
+      "фіолетовий",
+      "чорний",
+      "сірий"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "tag": "Clothing",
+    "style": "training",
+    "group": "apparel",
+    "gender": "women",
+    "type": "set"
+  },
+  {
+    "slug": "frm-ballet-leotard-burgundy",
+    "name": "FRM Ballet Leotard",
+    "description": "Класичний балетний купальник із м’якою посадкою та елегантним вирізом. Комфортно прилягає до тіла та підходить для тренувань, класики й contemporary practice.",
+    "category": "Тренувальна форма",
+    "price": 900,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1779008192/bpzmuzgxdvpqpoh1uozd.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1779008192/atvswnz5ss4u0kib6sto.jpg"
+    ],
+    "colors": [
+      "бордовий"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "tag": "Trainig",
+    "style": "ballet",
+    "group": "apparel",
+    "gender": "women",
+    "type": "training"
+  },
+  {
+    "slug": "frm-high-heels-lace-nude",
+    "name": "FRM Lace High Heels",
+    "description": "Тренувальні high heels із відкритим носком та шнурівкою для стабільної фіксації стопи. Ідеальні для heels choreography, stage practice та performance.",
+    "category": "Взуття",
+    "price": 1600,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1779008193/u9zcisb1gs9fjskwdsrd.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1779008192/h2qziydyhaqvkom9s0wr.jpg"
+      
+    ],
+    "colors": [
+      "бежевий",
+      "чорний"
+    ],
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "tag": "Heels",
+    "style": "performance",
+    "group": "shoes",
+    "gender": "women",
+    "type": "heels"
+  },
+  {
+    "slug": "frm-contemporary-pants",
+    "name": "FRM Contemporary Pants",
+    "description": "Легкі широкі штани для contemporary dance та studio practice. Вільний силует не сковує рухи й додає пластики під час танцю.",
+    "category": "Тренувальна форма",
+    "price": 1800,
+    "currency": "UAH",
+    "images": [
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1779008194/cgqjtmtu1xolxhkimlhx.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1779008193/qes4rhnwlpk2ycscy1gb.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1779008193/phhhn6wfnia7bkt892dc.jpg",
+      "https://res.cloudinary.com/dkchysebn/image/upload/v1779008192/iuosnundgb4dorlxo9ch.jpg"
+
+    ],
+    "colors": [
+      "бежевий",
+      "пісочний",
+      "коричневий"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tag": "Contemporary",
+    "style": "studio",
+    "group": "apparel",
+    "gender": "unisex",
+    "type": "other"
+  }
 ]

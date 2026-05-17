@@ -124,54 +124,63 @@ export async function POST(req: Request) {
       },
     });
 
-    const orderDate = Math.floor(Date.now() / 1000);
+    let paymentData = null;
 
-    const productName = order.items.map((item) => item.name);
-    const productCount = order.items.map((item) => item.quantity);
-    const productPrice = order.items.map((item) => item.price);
+    if (payment === "Card now") {
+      const orderDate = Math.floor(Date.now() / 1000);
 
-    const merchantAccount = process.env.MERCHANT_LOGIN!;
-    const merchantDomainName = process.env.WAYFORPAY_DOMAIN!;
-    const amount = order.total;
-    // const currency = order.currency;
+      const productName = order.items.map((item) => item.name);
+      const productCount = order.items.map((item) => item.quantity);
+      const productPrice = order.items.map((item) => item.price);
 
-    const merchantSignature = createWayForPaySignature([
-      merchantAccount,
-      merchantDomainName,
-      order.orderNumber,
-      orderDate,
-      amount,
-      currency,
-      ...productName,
-      ...productCount,
-      ...productPrice,
-    ]);
+      const merchantAccount = process.env.MERCHANT_LOGIN!;
+      const merchantDomainName = process.env.WAYFORPAY_DOMAIN!;
+      const amount = order.total;
+      const currency = order.currency;
 
-    const paymentData = {
-      merchantAccount,
-      merchantDomainName,
-      merchantTransactionType: "AUTO",
-      merchantTransactionSecureType: "AUTO",
-      merchantSignature,
-      apiVersion: 1,
-      language: "UA",
+      const merchantSignature = createWayForPaySignature([
+        merchantAccount,
+        merchantDomainName,
+        order.orderNumber,
+        orderDate,
+        amount,
+        currency,
+        ...productName,
+        ...productCount,
+        ...productPrice,
+      ]);
 
-      serviceUrl: `${process.env.NEXT_PUBLIC_SITE_URL}/api/wayforpay/callback`,
-      returnUrl: `${process.env.NEXT_PUBLIC_SITE_URL}/checkout/success?order=${order.orderNumber}`,
+      paymentData = {
+        merchantAccount,
+        merchantDomainName,
 
-      orderReference: order.orderNumber,
-      orderDate,
-      amount,
-      currency,
+        merchantTransactionType: "AUTO",
+        merchantTransactionSecureType: "AUTO",
 
-      productName,
-      productCount,
-      productPrice,
+        merchantSignature,
 
-      clientFirstName: fullName,
-      clientPhone: phone,
-      clientEmail: email ?? "",
-    };
+        apiVersion: 1,
+        language: "UA",
+
+        serviceUrl: `${process.env.NEXT_PUBLIC_SITE_URL}/api/wayforpay/callback`,
+
+        returnUrl: `${process.env.NEXT_PUBLIC_SITE_URL}/checkout/success?order=${order.orderNumber}`,
+
+        orderReference: order.orderNumber,
+        orderDate,
+
+        amount,
+        currency,
+
+        productName,
+        productCount,
+        productPrice,
+
+        clientFirstName: fullName,
+        clientPhone: phone,
+        clientEmail: email ?? "",
+      };
+    }
 
     try {
       const itemsText = order.items
@@ -208,6 +217,7 @@ export async function POST(req: Request) {
         orderNumber: order.orderNumber,
         orderId: order.id,
         total: order.total,
+        payment,
         paymentData,
       },
       { status: 200 }
