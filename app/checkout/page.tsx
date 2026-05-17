@@ -157,7 +157,7 @@ export default function CheckoutPage() {
                       {(i.price * i.qty).toLocaleString("uk-UA")} {i.currency}
                     </div>
                   </div>
-                  <button onClick={() => onRemove(i.slug, i.size, i.color)}>✕</button>
+                  <button onClick={() => onRemove(i.slug, i.color, i.size || '')}>✕</button>
                 </div>
               ))}
 
