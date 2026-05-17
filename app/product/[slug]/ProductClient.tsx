@@ -30,17 +30,18 @@ export default function ProductClient({ product }: { product: Product }) {
   );
 
   const onAddToCart = () => {
-    if (!product.sizes) {
+    if (product.sizes.length === 0) {
       addToCart({
         slug: product.slug,
         color: selectedColor,
         name: product.name,
         price: product.price,
         currency: product.currency,
-        image: activeImage, // зберігаємо активне фото
+        image: activeImage,
         size: selectedSize,
         qty: 1,
       });
+      setMsg('Товар додано до кошика');
 
     } if (product.sizes && !selectedSize) {
       setMsg('Оберіть розмір');
@@ -55,9 +56,8 @@ export default function ProductClient({ product }: { product: Product }) {
         size: selectedSize,
         qty: 1,
       });
+      setMsg('Товар додано до кошика');
     }
-
-    setMsg('Товар додано до кошика');
 
     setTimeout(() => (
       setMsg('')
@@ -142,15 +142,11 @@ export default function ProductClient({ product }: { product: Product }) {
 
           {/* SIZES */}
           <div className="product-sizes">
-            {/* <Link href="/fit-guide" className="product-sizes-link">
-              Гайд по розміру
-            </Link> */}
-
-            {product.sizes && (
+            {product.sizes.length > 0 && (
               <div className="product-sizes-grid field w-53">
                 <h1>Розмір</h1>
                 <div className="product-sizes-grid">
-                  {product.sizes?.map((size) => (
+                  {product.sizes.map((size) => (
                     <button
                       key={size}
                       type="button"

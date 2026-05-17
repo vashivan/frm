@@ -6,8 +6,8 @@ export type CartItem = {
   name: string;
   price: number;
   currency: string;
-  image: string;
-  size: string;
+  image?: string;
+  size?: string | "";
   qty: number;
 };
 
@@ -28,7 +28,7 @@ const CART_EVENT = "frm_cart_updated";
 export function setCart(items: CartItem[]) {
   if (typeof window === "undefined") return;
   localStorage.setItem(KEY, JSON.stringify(items));
-  window.dispatchEvent(new Event(CART_EVENT)); // ✅ повідомляємо UI
+  window.dispatchEvent(new Event(CART_EVENT));
 }
 
 export { CART_EVENT };
@@ -37,7 +37,7 @@ export function addToCart(item: CartItem) {
   const cart = getCart();
 
   const idx = cart.findIndex(
-    (x) => x.slug === item.slug && x.size === item.size
+    (x) => x.slug === item.slug && x.size === item.size && x.color === item.color
   );
 
   if (idx >= 0) {

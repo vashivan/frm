@@ -5,7 +5,6 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
 }
 
 enum ProductGroup {
@@ -28,77 +27,68 @@ enum ProductStatus {
 }
 
 model Product {
-  id          String        @id @default(cuid())
-  slug        String        @unique
+  id          String  @id @default(cuid())
+  slug        String  @unique
   name        String
   description String?
   category    String
   price       Int
-  currency    String        @default("UAH")
+  currency    String  @default("UAH")
 
-  images      String[]
-  sizes       String[]
-  colors      String[]
+  images String[]
+  sizes  String[]
+  colors String[]
 
-  tag         String?
-  style       String?
-  type        String?
-  group       ProductGroup
-  gender      ProductGender
-  status      ProductStatus @default(active)
+  tag    String?
+  style  String?
+  type   String?
+  group  ProductGroup
+  gender ProductGender
+  status ProductStatus @default(active)
 
-  createdAt   DateTime      @default(now())
-  updatedAt   DateTime      @updatedAt
-}
-datasource db {
-  provider = "postgresql"
-}
-
-
-enum ProductGroup {
-  shoes
-  apparel
-  kids
-  accessories
-}
-
-enum ProductGender {
-  women
-  men
-  unisex
-}
-
-enum ProductStatus {
-  active
-  draft
-  archived
-}
-
-model Product {
-  id          String        @id @default(cuid())
-  slug        String        @unique
-  name        String
-  description String?
-  category    String
-  price       Int
-  currency    String        @default("UAH")
-
-  images      String[]
-  sizes       String[]
-  colors      String[]
-
-  tag         String?
-  style       String?
-  type        String?
-  group       ProductGroup
-  gender      ProductGender
-  status      ProductStatus @default(active)
-
-  createdAt   DateTime      @default(now())
-  updatedAt   DateTime      @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   @@index([group])
   @@index([gender])
   @@index([category])
   @@index([status])
+}
+
+model Order {
+  id          String @id @default(cuid())
+  orderNumber String @unique
+
+  customerName  String
+  customerPhone String
+  customerEmail String?
+
+  subtotal    Int
+  deliveryFee Int    @default(0)
+  total       Int
+  currency    String @default("UAH")
+
+  status        String @default("pending")
+  paymentStatus String @default("unpaid")
+
+  items OrderItem[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model OrderItem {
+  id String @id @default(cuid())
+
+  orderId   String
+  productId String
+
+  name     String
+  size     String?
+  color    String?
+  quantity Int
+  price    Int
+  total    Int
+
+  order Order @relation(fields: [orderId], references: [id], onDelete: Cascade)
 }

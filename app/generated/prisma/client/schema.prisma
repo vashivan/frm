@@ -54,3 +54,41 @@ model Product {
   @@index([category])
   @@index([status])
 }
+
+model Order {
+  id          String @id @default(cuid())
+  orderNumber String @unique
+
+  customerName  String
+  customerPhone String
+  customerEmail String?
+
+  subtotal    Int
+  deliveryFee Int    @default(0)
+  total       Int
+  currency    String @default("UAH")
+
+  status        String @default("pending")
+  paymentStatus String @default("unpaid")
+
+  items OrderItem[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model OrderItem {
+  id String @id @default(cuid())
+
+  orderId   String
+  productId String
+
+  name     String
+  size     String?
+  color    String?
+  quantity Int
+  price    Int
+  total    Int
+
+  order Order @relation(fields: [orderId], references: [id], onDelete: Cascade)
+}

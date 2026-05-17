@@ -1,7 +1,7 @@
 export default function CategoryLoading() {
   return (
     <section className="px-6 py-30">
-      <div className="mb-6 h-6 w-32 animate-pulse bg-gray-200" />
+      <div className="mb-6 h-6 w-26 animate-pulse bg-gray-200" />
 
       <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
         {Array.from({ length: 12 }).map((_, i) => (
